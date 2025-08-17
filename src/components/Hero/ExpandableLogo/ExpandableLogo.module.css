@@ -1,0 +1,24 @@
+.acronym {
+
+}
+
+.acronym span.first {
+    
+}
+
+.acronym span.rest {
+    display: inline-block;
+    vertical-align: bottom;
+    overflow: hidden;
+    max-width: 0;
+    transition: max-width 1.5s ease, opacity 1.5s ease;
+    color: #555;
+    white-space: nowrap;
+
+    opacity: 0;
+}
+
+.acronym:hover span.rest {
+    max-width: 12ch;
+    opacity: 1;
+}

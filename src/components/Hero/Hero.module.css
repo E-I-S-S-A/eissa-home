@@ -1,0 +1,13 @@
+.hero_main_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 6rem;
+    flex-direction: column;
+    padding-top: 5%;
+}
+
+.hero_text{
+    font-size: 4rem;
+    text-align: center;
+}
