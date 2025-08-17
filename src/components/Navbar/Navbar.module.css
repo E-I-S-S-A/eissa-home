@@ -1,0 +1,31 @@
+.main_container{
+    padding: 0 1rem;
+    display: flex;
+    gap: 2rem;
+}
+
+.nav_options{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.action_conatiner{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    border: 2px solid transparent;
+}
+
+.action{
+    text-decoration: none;
+    color: var(--text_color_2);
+}
+
+.action_conatiner.active .action{
+    color: var(--text_color_1);
+}
+
+.action_conatiner.active{
+    border-bottom: 2px solid var(--border_color_1);
+}
