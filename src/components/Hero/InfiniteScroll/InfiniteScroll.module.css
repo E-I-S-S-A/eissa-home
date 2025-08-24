@@ -1,0 +1,30 @@
+.scroll_container {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+}
+
+.carousel_track {
+    display: flex;
+    width: max-content;
+    gap: 2rem;
+    animation: scroll 20s linear infinite;
+}
+
+.carousel_track img {
+    width: 3rem;
+    height: 4rem;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+@keyframes scroll {
+    from {
+        transform: translateX(-50%);
+    }
+
+    to {
+        transform: translateX(0%);
+    }
+}
